@@ -6,10 +6,10 @@
     <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>mywarapp1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>FSA</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
-    <name>My WAR Project</name>
+  <name>Flowers Shop Application</name>
 
     <dependencies>
         <!-- Servlet API -->
@@ -22,7 +22,7 @@
     </dependencies>
 
     <build>
-        <finalName>mywarapp</finalName>
+        <finalName>FSA</finalName>
     </build>
 </project>
 
