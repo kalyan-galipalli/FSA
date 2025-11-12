@@ -11,6 +11,11 @@
   <packaging>war</packaging>
   <name>Flowers Shop Application</name>
 
+    <properties>
+        <!-- This property will hold the final WAR name, can be overridden by Jenkins -->
+        <build.number>0</build.number>
+    </properties>
+    
     <dependencies>
         <!-- Servlet API -->
         <dependency>
@@ -22,7 +27,8 @@
     </dependencies>
 
     <build>
-        <finalName>FSA</finalName>
+        <!-- Dynamic finalName with version and Jenkins build number -->
+        <finalName>${project.artifactId}-${project.version}</finalName>
     </build>
 </project>
 
